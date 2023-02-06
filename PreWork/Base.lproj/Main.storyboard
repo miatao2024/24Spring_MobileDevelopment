@@ -110,6 +110,16 @@
                                     <action selector="stepperDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="meI-dV-qOn"/>
                                 </connections>
                             </stepper>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Af3-nc-lsH">
+                                <rect key="frame" x="16" y="599" width="337" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Web"/>
+                                    <segment title="Mobile"/>
+                                    <segment title="Cloud"/>
+                                    <segment title="Infra"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -117,6 +127,7 @@
                     <connections>
                         <outlet property="FirstNameTextField" destination="FGf-Ml-3ZM" id="CSX-Hf-2eG"/>
                         <outlet property="LastNameTextField" destination="DQU-lU-jKB" id="HWu-8E-mMQ"/>
+                        <outlet property="interestSegmentedControl" destination="Af3-nc-lsH" id="07d-jy-qfC"/>
                         <outlet property="morePetsStepper" destination="udn-Ca-E8F" id="YUl-pR-c9H"/>
                         <outlet property="morePetsSwitch" destination="L4c-hD-Fwj" id="QvO-yR-WRr"/>
                         <outlet property="numberOfPetsLabel" destination="AYI-Nn-jHa" id="2eQ-Yi-pva"/>
