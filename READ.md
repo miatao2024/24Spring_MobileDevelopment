@@ -4,8 +4,7 @@
 This is made for students from different universities to introduce themselves when attending CodePath courses.
 
 ## App Walk-though
-
-TODO:// In the Features section below, add an x between the -[ ] like this - [x] for any features you complete. (☝️ Remove this paragraph after after checking off user stories)
+![HiFriends](https://user-images.githubusercontent.com/94973185/216862974-933dd7cc-0f53-45a0-b49e-d1295568ff39.gif)
 
 ## Required Features
 - [x] App displays an image of a school's logo
