@@ -1,5 +1,5 @@
 ## App Name
-hiFriends
+HiFriends
 
 ## App Description
 This is made for students from different universities to introduce themselves when attending CodePath courses.
